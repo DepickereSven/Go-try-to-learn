@@ -7,18 +7,23 @@ import (
 
 //can't be changed
 const (
-	Stringmessage = "Second Hello world!"
+	stringmessage       = "Second Hello world!"
+	secondStringMessage = "Second message"
 )
 
 //just a simple var
 var (
 	messageForWorld string
+	secondMessageForWorld string
 )
 
 func main() {
 	fmt.Println("Hello World!")
-	fmt.Println(Stringmessage)
+	fmt.Println(stringmessage)
 	fmt.Println(messageForWorld)
+	secondMessageForWorld = "second message"
+	fmt.Println(secondStringMessage)
+	fmt.Println(secondMessageForWorld)
 }
 
 
